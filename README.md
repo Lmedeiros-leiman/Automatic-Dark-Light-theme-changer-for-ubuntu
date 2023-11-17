@@ -25,10 +25,13 @@ second off, this script wants to generate logs at the ~/Scripts folder, if it do
  Agora tecla crontab -e, seleciona teu editor e coloca as seguintes linhas
 
 ```sh
-> 30 5 * * * bash /usr/local/bin/AutomaticThemeChanger.sh light
-> 0 19 * * * bash /usr/local/bin/AutomaticThemeChanger.sh dark
-> @reboot bash /usr/bin/local/AutomaticThemeChanger.sh
+30 5 * * * bash /usr/local/bin/AutomaticThemeChanger.sh light
+0 19 * * * bash /usr/local/bin/AutomaticThemeChanger.sh dark
+@reboot bash /usr/bin/local/AutomaticThemeChanger.sh
 ```
+e para finalizar a instalação, basta adicionar o arquivo na lista de propriedades do gnome.
+para abrir a lista só executa o comando abaixo:
+> gnome-session-properties
 
  agora tu só precisa inverter a cor do teu sistema e executar o arquivo para confirmar que esta funcionando.
  de preferencia tu pode só reiniciar o computador pra confirmar que o crontab tambem esta executando.
@@ -38,10 +41,15 @@ second off, this script wants to generate logs at the ~/Scripts folder, if it do
 Copy this script file to /usr/local/bin/AutomaticThemeChanger
 
 Now just type crontab -e, select your editor and paste in the following lines:
-#
-# 30 5 * * * bash /usr/bin/local/AutomaticThemeChanger light
-# 0 19 * * * bash /usr/bin/local/AutomaticThemeChanger dark
-# @reboot bash /usr/bin/local/AutomaticThemeChanger
-#
-# after this is done you can invert the system colors and either just run the script
-# or restart the machine, so its confirmed both the script and crontab are working.
+
+´´´sh
+30 5 * * * bash /usr/bin/local/AutomaticThemeChanger light
+0 19 * * * bash /usr/bin/local/AutomaticThemeChanger dark
+@reboot bash /usr/bin/local/AutomaticThemeChanger
+´´´
+
+and to finish this off, just add this the gnome-session properties, just run this command and add the file.
+> gnome-session-properties
+
+after this is done you can invert the system colors and either just run the script
+or restart the machine, so its confirmed both the script and crontab are working.
