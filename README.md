@@ -4,7 +4,7 @@
 
 # about this project
 
-this is a simple linux bash script to automatically swap between light and dark mode based on the current time in the system.
+this is a simple linux bash script to automatically swap between light and dark mode based on the current time in the system. Instalation tutorial is included inside the .bs file.
 
 it utilizes crontab to run the script at a specific time or just when the computer is rebooted.
 
