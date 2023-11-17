@@ -22,9 +22,9 @@ set_theme() {
         new_color_scheme="prefer-dark"
         new_icon_theme="Yaru-blue-dark"
     elif [[ "$1" == "light" ]]; then
-        new_gtk_theme="Yaru-orange"
+        new_gtk_theme="Yaru-blue"
         new_color_scheme="prefer-light"
-        new_icon_theme="Yaru-orange"the
+        new_icon_theme="Yaru-blue"the
     else
         echo "[!] Unsupported theme: $1"
         return
