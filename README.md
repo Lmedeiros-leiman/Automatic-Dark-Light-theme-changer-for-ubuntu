@@ -11,3 +11,8 @@ it utilizes crontab to run the script at a specific time or just when the comput
 by default it utilizes ubuntu Yaru red theme and can even change icons if that is you turn it on by deleting the # on the script.
 
 Thank you for the original poster and all contributors on AskUbuntu for this code.
+
+when running the script you may find a few errors.
+
+first off this is an user script, so running it as root will result in a critical error, my guess is that it doesnt know to what user apply the changes since "root" may not be a valid one.
+second off, this script wants to generate logs at the ~/Scripts folder, if it doesnt find the folder it will just give in some warnings and execute anyways.
