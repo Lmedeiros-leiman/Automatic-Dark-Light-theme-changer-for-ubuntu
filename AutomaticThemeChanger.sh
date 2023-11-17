@@ -22,7 +22,7 @@
 # 0 19 * * * bash /usr/bin/local/AutomaticThemeChanger dark
 # @reboot bash /usr/bin/local/AutomaticThemeChanger
 #
-# after this is done you can either just run the script
+# after this is done you can invert the system colors and either just run the script
 # or restart the machine, so its confirmed both the script and crontab are working.
 
 set_theme() {
