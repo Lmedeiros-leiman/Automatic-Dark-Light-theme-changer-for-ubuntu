@@ -1,5 +1,4 @@
-# Automatic-Dark-Light-theme-changer-for-ubuntu
->## Script that auto switches Ubuntu Themes to Dark or Light, depending on the time of day.
+># Script that auto switches Ubuntu Themes to Dark or Light, depending on the time of day.
 
 [Original code created here.](https://askubuntu.com/questions/1234742/automatic-light-dark-mode/1491373#1491373)
 
