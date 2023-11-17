@@ -10,7 +10,9 @@
 # 0 19 * * * bash /usr/local/bin/AutomaticThemeChanger.sh dark
 # @reboot bash /usr/bin/local/AutomaticThemeChanger.sh
 #
-# agora só inverte a cor do teu computador e reinicia ele, pra confirmar que esta funcionando.
+# agora tu só precisa inverter a cor do teu sistema e executar o arquivo para confirmar que esta funcionando.
+# de preferencia tu pode só reiniciar o computador pra confirmar que o crontab tambem esta executando.
+#
 #
 # [ English ] Tutorial
 # Copy this script file to /usr/local/bin/AutomaticThemeChanger
@@ -19,6 +21,9 @@
 # 30 5 * * * bash /usr/bin/local/AutomaticThemeChanger light
 # 0 19 * * * bash /usr/bin/local/AutomaticThemeChanger dark
 # @reboot bash /usr/bin/local/AutomaticThemeChanger
+#
+# after this is done you can either just run the script
+# or restart the machine, so its confirmed both the script and crontab are working.
 
 set_theme() {
     # https://askubuntu.com/a/743024/1193214
