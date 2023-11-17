@@ -6,8 +6,8 @@
 # [ Portugues ] Tutorial: básicamente copia e cola este arquivo na pasta /usr/local/bin/
 # Agora tecla crontab -e, seleciona teu editor e coloca as seguintes linhas
 #
-# 30 5 * * * bash /usr/bin/local/AutomaticThemeChanger.sh light
-# 0 19 * * * bash /usr/bin/local/AutomaticThemeChanger.sh dark
+# 30 5 * * * bash /usr/local/bin/AutomaticThemeChanger.sh light
+# 0 19 * * * bash /usr/local/bin/AutomaticThemeChanger.sh dark
 # @reboot bash /usr/bin/local/AutomaticThemeChanger.sh
 #
 # agora só inverte a cor do teu computador e reinicia ele, pra confirmar que esta funcionando.
