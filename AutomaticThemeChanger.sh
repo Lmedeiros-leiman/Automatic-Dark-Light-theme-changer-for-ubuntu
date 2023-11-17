@@ -1,30 +1,5 @@
 #!/bin/bash
 
-# Script that auto switches Ubuntu themes to Dark or Light, 
-# depending on the time of day
-#
-# [ Portugues ] Tutorial: básicamente copia e cola este arquivo na pasta /usr/local/bin/
-# Agora tecla crontab -e, seleciona teu editor e coloca as seguintes linhas
-#
-# 30 5 * * * bash /usr/local/bin/AutomaticThemeChanger.sh light
-# 0 19 * * * bash /usr/local/bin/AutomaticThemeChanger.sh dark
-# @reboot bash /usr/bin/local/AutomaticThemeChanger.sh
-#
-# agora tu só precisa inverter a cor do teu sistema e executar o arquivo para confirmar que esta funcionando.
-# de preferencia tu pode só reiniciar o computador pra confirmar que o crontab tambem esta executando.
-#
-#
-# [ English ] Tutorial
-# Copy this script file to /usr/local/bin/AutomaticThemeChanger
-# Now just type crontab -e, select your editor and paste in the following lines:
-#
-# 30 5 * * * bash /usr/bin/local/AutomaticThemeChanger light
-# 0 19 * * * bash /usr/bin/local/AutomaticThemeChanger dark
-# @reboot bash /usr/bin/local/AutomaticThemeChanger
-#
-# after this is done you can invert the system colors and either just run the script
-# or restart the machine, so its confirmed both the script and crontab are working.
-
 set_theme() {
     # https://askubuntu.com/a/743024/1193214
     # PID may return multiple ids here, so I converted to to array and got just the first id.
