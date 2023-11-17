@@ -26,9 +26,7 @@ second off, this script wants to generate logs at the ~/Scripts folder, if it do
 
 ```sh
 > 30 5 * * * bash /usr/local/bin/AutomaticThemeChanger.sh light
->
 > 0 19 * * * bash /usr/local/bin/AutomaticThemeChanger.sh dark
->
 > @reboot bash /usr/bin/local/AutomaticThemeChanger.sh
 ```
 
