@@ -3,7 +3,7 @@
 # Script that auto switches Ubuntu themes to Dark or Light, 
 # depending on the time of day
 #
-# [ Portugues] Tutorial: básicamente copia e cola este arquivo na pasta /usr/local/bin/
+# [ Portugues ] Tutorial: básicamente copia e cola este arquivo na pasta /usr/local/bin/
 # Agora tecla crontab -e, seleciona teu editor e coloca as seguintes linhas
 #
 # 30 5 * * * bash /usr/bin/local/AutomaticThemeChanger.sh light
