@@ -16,3 +16,7 @@ when running the script you may find a few errors.
 
 first off this is an user script, so running it as root will result in a critical error, my guess is that it doesnt know to what user apply the changes since "root" may not be a valid one.
 second off, this script wants to generate logs at the ~/Scripts folder, if it doesnt find the folder it will just give in some warnings and execute anyways.
+
+# Installation.
+
+There is a 
